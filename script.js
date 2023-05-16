@@ -27,3 +27,22 @@ if (isNaN(length) || length < 8 || length > 120) {
   alert("Invalid input. Please choose a length between 8 and 128.");
   return "";
 }
+
+var charset = "";
+if (confirm("Include lowercase characters?")) {
+  charset += lowercase;
+}
+if (confirm("Include uppercase characters?")) {
+  charset += uppercase;
+}
+if (confirm("Include numeric characters?")) {
+  charset += numbers;
+}
+if (confirm("Include special characters?")) {
+  charset += symbols;
+}
+
+if (charset === "") {
+  alert("You need to select at least one type of characters to include.");
+  return "";
+}
