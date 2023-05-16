@@ -23,7 +23,7 @@ function generatePassword() {
 var length = parseInt(
   prompt("Choose a password length between 8 and 128 characters:")
 );
-if (isNaN(length) || length < 8 || length > 120) {
+if (isNaN(length) || length < 8 || length > 128) {
   alert("Invalid input. Please choose a length between 8 and 128.");
   return "";
 }
