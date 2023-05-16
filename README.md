@@ -15,8 +15,9 @@ Create an application that an employee can use to generate a random password bas
 
 ## How to Complete the Challenge
 
-- The URL of the deployed application.
-- The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+- Clone the starter codeLinks to an external site.
+- Starter code is in a folder called Develop (will be in a branch called starter code).
+- Modify the code to meet the Acceptance Criteria.
 
 ## User Story
 
