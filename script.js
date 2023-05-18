@@ -28,25 +28,30 @@ function generatePassword() {
   }
 
   var charset = "";
+  var password = "";
   if (confirm("Include lowercase characters?")) {
     charset += lowercase;
+    password += lowercase[Math.floor(Math.random() * lowercase.length)];
   }
   if (confirm("Include uppercase characters?")) {
     charset += uppercase;
+    password += uppercase[Math.floor(Math.random() * uppercase.length)];
   }
   if (confirm("Include numeric characters?")) {
     charset += numbers;
+    password += numbers[Math.floor(Math.random() * numbers.length)];
   }
   if (confirm("Include special characters?")) {
     charset += symbols;
+    password += symbols[Math.floor(Math.random() * symbols.length)];
   }
 
   if (charset === "") {
     alert("You need to select at least one type of characters to include.");
     return "";
   }
-  var password = "";
-  for (var i = 0; i < length; i++) {
+
+  while (password.length < length) {
     password += charset[Math.floor(Math.random() * charset.length)];
   }
 
