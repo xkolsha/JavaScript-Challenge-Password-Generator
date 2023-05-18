@@ -54,6 +54,7 @@ SO THAT I can create a strong password that provides greater security
 - https://www.w3schools.com/js/js_if_else.asp
 - https://courses.bootcampspot.com/ (Challenge description)
 - https://www.w3schools.com/js/default.asp
+- https://calendly.com/d/dnc-wpf-c7s
 
 ## License
 
